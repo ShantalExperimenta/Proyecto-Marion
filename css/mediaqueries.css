@@ -1,0 +1,197 @@
+.fix-bottom{
+	position: absolute;
+	bottom: 15px;
+}
+/* media queries para menu*/
+@media (min-width: 1076px){
+	.iconos,.navbar-nav{
+	    margin-right: 1.2em;
+	}
+	.navbar-nav>li>a{
+		font-size: 1.2em;
+	}
+}
+@media (min-width: 1140px) {
+	.logo{
+		padding: 0px 20px;
+	}
+}
+@media (min-width: 988px){
+	.navbar-nav>li>a {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	    padding-right: 30px !important;
+	    padding-left: 30px !important;
+	}
+}
+@media (min-width: 768px){
+	.f-right{
+		float: right;
+	}
+	.icon-contact:hover{
+		border-bottom: solid 4px #ff671b;
+		line-height: 0.1px;
+	}
+	.icon-heart:hover{
+		border-bottom: solid 4px #ff671b;
+		line-height: 0.1px;
+	}
+	.icon-user:hover{
+		border-bottom: solid 4px #ff671b;
+		line-height: 0.1px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.nav>li>a {
+	    padding: 10px 12px !important;
+	    font-size: 1.05em;
+	}
+	#search-form input:focus {
+		width:150px;
+	}
+}
+@media (min-width: 480px) and (max-width: 767px){
+	.navbar-default {
+		height: 60px;
+		background-color: rgba(0, 0, 0, 0.89) !important;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.fondoLogo {
+		height: 60px !important;
+	}
+	.logoExp {
+		width: 60%;
+    	float: left;
+	}
+	.iconos{
+	    text-align: left;
+		margin-top: 12px;
+		float: left !important;
+	}
+	.iconos{
+		background-color: rgba(0, 0, 0, 0.89) ;
+		    
+		width: 100%;
+	}
+	.navbar-collapse{
+		background-color: rgba(0, 0, 0, 0.89) !important;
+	}
+	#search-form{
+		margin-right: 30px !important;
+		width: 186px;
+		margin-top: -4px;
+	}
+	#search-form form {
+		margin: 0px !important;
+		width: 148px;
+	}
+	#search-form input {
+		width: 148px;
+	}
+	.pd-0{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	#search-form input:focus {
+		width:170px;
+	}
+	#navbar-collapse {
+		height: 100vh !important;
+	}
+	#listaServiciosCorporativos {
+		width: 90% !important;
+		padding-right: 80px;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		width: 90%;
+	}
+	#navbar-collapse2{
+		height: 100vh;
+	}
+}
+@media (max-width: 479px) {
+	.logo{
+		height: 50px;
+	}
+	.navbar-default {
+		height: 60px;
+		background-color: rgba(0, 0, 0, 0.89) !important;
+	}
+	.fondoLogo {
+		height: 60px !important;
+	}
+	.fondoLogo img{
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+	/*Para iconos en menu movil*/
+	.iconos{
+		background-color: rgba(0, 0, 0, 0.89) ;
+		margin-right: 10px;
+		width: 100%;
+		margin-top: 12px;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.iconos i{
+		margin: 4px 9px;
+	}
+
+	.navbar-collapse{
+		background-color: rgba(0, 0, 0, 0.89);
+		margin-left: -15px !important;
+		margin-right: 0px;
+	}
+	#navbar-collapse2{
+		height: 100vh;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    margin-left: -15px;
+	    margin-right: -15px !important;
+	}
+	.pd-0{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	#search-form{
+		margin-right: 30px !important;
+		width: 180px;
+		margin-top: -4px;
+	}
+	#search-form form {
+		margin: 0px !important;
+		width: 148px;
+	}
+	#search-form input {
+		width: 148px;
+	}
+	.pd-0{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	#search-form input:focus {
+		width:170px;
+	}
+	#navbar-collapse {
+		height: 100vh !important;
+	}
+	#listaServiciosCorporativos {
+		width: 90% !important;
+		padding-right: 80px;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		width: 90%;
+	}
+}
+@media (max-width: 375px) {
+	#search-form form {
+		margin: 0px !important;
+	}
+	.iconos i {
+	    margin: 4px 1px;
+	}
+}
