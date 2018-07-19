@@ -19,9 +19,17 @@ $(document).ready(function() {
 	});
  
 	//Menu
+
+	// esta funcion es para desaparecer el menu completo al dar click a algun enlace en version movil
+	$(".navbar-nav>li>a").on("click", function(){
+		$("#myNavbar").toggle(400)
+   	});
+
+	// esta es para desplegar el boton del menu
 	$("#home-nav").on("click", function(){
-		 $("#myNavbar").toggle(400)
-	});
+		$("#myNavbar").toggle(300)
+   });
+
  
 	
 });

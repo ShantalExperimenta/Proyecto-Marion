@@ -4,6 +4,10 @@
     color: #fff;
     vertical-align: center;
 }
+.txt-white-center{
+  color: #fff;
+  text-align: center;
+}
 .txt-black-metodologia{
   color: rgb(0, 0, 0);
   vertical-align: center;
