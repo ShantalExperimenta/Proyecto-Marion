@@ -1,17 +1,55 @@
- @media (min-width: 319px) and (max-width: 767px){
+@media (min-width: 300px) and (max-width: 320px){
+    
+    h1{
+        font-size: 2em;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 20%;
+        line-height: 1.7;
+    }
+    .h1-carrousel{
+        font-size: 2em;
+        margin-top: 20%;
+        line-height: 1.7;
+    }
+
+    .mq-width{
+        width: 14%;
+    }
+    h2{
+        font-size: 2.3em;
+        margin-right: 5%;
+        margin-left: 5%;
+        
+    }
+}
+@media (min-width: 321px) and (max-width: 767px){
     
     .navbar-collapse{
         width: 95%;
     }
-    h1,h2{
+    h1{
         font-size: 2.8em;
         margin-right: 10%;
         margin-left: 10%;
         margin-top: 20%;
     }
+    .h1-carrousel{
+        font-size: 2.8em;
+        margin-top: 20%;
+    }
     .carousel-control .fa-angle-right,.carousel-control .fa-angle-left{
         margin-top: 60px;
 
+    }
+    h2{
+        font-size: 2.6em;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+    .mq-width{
+        width: 14%;
     }
 }
 

@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 	// esta es para desplegar el boton del menu
 	$("#home-nav").on("click", function(){
-		$("#myNavbar").toggle(300)
+		$("#myNavbar").toggle(400)
    });
 
  
