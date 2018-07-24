@@ -7,14 +7,17 @@
         margin-right: 10%;
         margin-left: 10%;
         margin-top: 20%;
-        line-height: 1.7;
+        line-height: 1.3;
     }
     .h1-carrousel{
         font-size: 2em;
         margin-top: 20%;
-        line-height: 1.7;
+        line-height: 1.3;
     }
-
+    .carousel-control .fa-angle-right, .carousel-control .fa-angle-left {
+        
+        top: 60%;;
+    }
     .mq-width{
         width: 14%;
     }
@@ -31,7 +34,7 @@
     .background-metodologia{
         background-attachment: fixed;
     }
-    ul{
+    #porQueMarion{
        padding-left: 0px;
     }
     #porQueMarion>li{
@@ -60,6 +63,25 @@
         margin-right: auto;
         margin-left: auto;
     }
+    .display-inline{
+        display: inherit;
+    }
+    .form-control{
+        display: block;
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+    }
+    .mt-10{
+        margin-top: 5%;
+    }
+    .mq-mt-10{
+        margin-top: 5%;
+    }
+    .text-right{
+        text-align: center;
+    }
 }
 @media (min-width: 321px) and (max-width: 767px){
     
@@ -67,24 +89,32 @@
         width: 95%;
     }
     h1{
-        font-size: 2.8em;
+        font-size: 2.5em;
         margin-right: 10%;
         margin-left: 10%;
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .h1-carrousel{
-        font-size: 2.8em;
-        margin-top: 20%;
+        font-size: 2.4em;
+        margin-top: 10%;
     }
-    .carousel-control .fa-angle-right,.carousel-control .fa-angle-left{
-        margin-top: 60px;
-
+    .cuadro_intro_hover img {
+        height: auto;
+     }
+     .lista-como-ayudar {
+         font-size: 1.3em; 
     }
     h2{
-        font-size: 2.6em;
+        font-size: 2em;
         margin-right: 10%;
         margin-left: 10%;
         margin-top: 20%;
+    }
+    .background-metodologia{
+        background-attachment: fixed;
+    }
+    .txt-black-metodologia{
+        font-size: 1em;
     }
     .mq-width{
         width: 14%;
@@ -93,14 +123,77 @@
         margin-top: 5%;
         margin-bottom: 5%;
     }
+    /*form*/
+    label .display-inline{
+        display: inherit;
+    }
+    .form-style{
+        width: 90%;
+    }
+    .form-control{
+        display: block;
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+    }
+    .mt-10{
+        margin-top: 5%;
+    }
+    .mq-mt-10{
+        margin-top: 5%;
+    }
+    .text-right{
+        text-align: center;
+    }
+    .storytelling {
+        font-size: 2.5em;
+    }
+    footer{
+        text-align: center;
+    }
+    .widht-70{
+        width: 100%;
+    }
+    #logo-footer{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
   @media only screen and (min-width:768px) and (max-width:992px){
     #mq-analitica{
         padding-top: 5%;
     }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
   }
   
-  @media only screen and (min-width:993px) and (max-width:1280px){
-    
+  @media only screen and (min-width:993px) and (max-width:1480px){
+    textarea{
+        width: 97% !important;
+    }
+    .navbar-nav>li>a {
+        font-size: 1em;
+        color: #333333;
+        font-weight: 500;
+    }
   }
+
+  @media only screen and (min-width:1024px) and (max-width:1480px){
+    textarea{
+        width: 97% !important;
+    }
+  }
+  
