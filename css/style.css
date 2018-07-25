@@ -40,7 +40,13 @@ h2{
     font-weight: 600;
     font-size: 2.8em;
 }
-
+div.a-white a{
+    text-decoration: none;
+    color: #fff;
+}
+div.a-white a:hover{
+    color: rgb(216, 173, 0);
+}
 #teAyudamos ul{
     list-style-image: url('../img/iconos/bullet2.png'); 
     line-height: 2em; 
