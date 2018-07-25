@@ -2,12 +2,12 @@
 	max-width: 300px;
 }
 
-.container-fluid {
+/* .container-fluid {
     padding-right: 0px !important;
     padding-left: 0px !important;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
 .hand:hover{
 	cursor: pointer;

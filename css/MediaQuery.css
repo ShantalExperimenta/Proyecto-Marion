@@ -1,4 +1,7 @@
 @media (min-width: 300px) and (max-width: 320px){
+    #menu.container-fluid{
+        padding-left: 0px;
+    }
     .navbar-collapse{
         width: 95%;
     }
@@ -84,7 +87,9 @@
     }
 }
 @media (min-width: 321px) and (max-width: 767px){
-    
+    #menu.container-fluid{
+        padding-left: 0px;
+    }
     .navbar-collapse{
         width: 95%;
     }
@@ -163,6 +168,9 @@
 }
 
   @media only screen and (min-width:768px) and (max-width:992px){
+    #menu.container-fluid{
+        padding-left: 0px;
+    }
     #mq-analitica{
         padding-top: 5%;
     }
@@ -178,9 +186,40 @@
     .navbar-header {
         float:none;
     }
+    #mq-menu-2{
+        margin-left: 25%;
+    }
+    .storytelling {
+        font-size: 3em;
+        margin-left: 5%; 
+    }
+    /*form*/
+    label .display-inline{
+        display: inherit;
+    }
+    .form-style{
+        width: 90%;
+    }
+    .form-control{
+        display: block;
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+    }
+    .mt-10{
+        margin-top: 5%;
+    }
+    .text-right{
+        text-align: center;
+    }
   }
   
   @media only screen and (min-width:993px) and (max-width:1480px){
+    #menu.container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     textarea{
         width: 97% !important;
     }
@@ -191,7 +230,11 @@
     }
   }
 
-  @media only screen and (min-width:1024px) and (max-width:1480px){
+  @media only screen and (min-width:1024px) and (max-width:1920px){
+    #menu.container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     textarea{
         width: 97% !important;
     }
