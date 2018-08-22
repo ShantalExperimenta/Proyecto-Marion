@@ -471,7 +471,12 @@ div.carousel-inner div.container{
 	background-color: transparent;	
 }
 
-
+#mq-menu-2{
+	float: left;
+}
+#ul-servicio{
+	float: right;
+}
 
 
   
